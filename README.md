@@ -3,7 +3,7 @@
 A C++17 project exploring algorithms for computing the prime-counting function
 
 $$
-\pi(x)=\#\{p\le x:p\text{ is prime}\}.
+\pi(x)=\left\lvert\left\lbrace p\le x : p\text{ is prime}\right\rbrace\right\rvert.
 $$
 
 The project implements and benchmarks trial division, classical odd sieving, Legendre's, Lehmer's prime-counting algorithms.
@@ -77,8 +77,8 @@ Define
 
 $$
 \phi(x,a)=
-\#\{n\le x:\text{ no prime }p\le p_a
-\text{ divides }n\},
+\left\lvert\left\lbrace n\le x : \text{no prime }p\le p_a
+\text{ divides }n\right\rbrace\right\rvert,
 $$
 
 where $p_a$ denotes the $a$-th prime and $\phi(x,0)=\lfloor x\rfloor$.
