@@ -2,9 +2,9 @@
 
 A C++17 project exploring algorithms for computing the prime-counting function
 
-\[
+$$
 \pi(x)=\#\{p\le x:p\text{ is prime}\}.
-\]
+$$
 
 The project implements and benchmarks trial division, classical odd sieving, Legendre's, Lehmer's prime-counting algorithms.
 
