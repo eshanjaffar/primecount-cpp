@@ -207,8 +207,10 @@ These are individual wall-clock measurements, not medians.
 | $10^9$ | 50,847,534 | 0.137 s |
 | $10^{10}$ | 455,052,511 | 0.828 s |
 | $10^{11}$ | 4,118,054,813 | 3.670 s |
+| $10^{12}$ | 37,607,912,018 | 9.477 s |
+| $10^{13}$ | 346,065,536,839 | 281.753 s |
 
-The $10^{12}$ attempt was interrupted and is not a completed measurement. Timings depend on hardware, compiler settings, and system load.
+Timings depend on hardware, compiler settings, and system load.
 
 ## Benchmark environment
 

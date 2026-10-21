@@ -173,6 +173,9 @@ namespace primecount
             if (a == 0)
                 return x;
 
+            if (x == 0)
+                return 0;
+
             if (a == 1)
                 return x - x / 2;
 
